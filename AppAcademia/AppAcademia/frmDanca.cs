@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AppAcademia
+{
+    public partial class frmDanca : Form
+    {
+        public frmDanca()
+        {
+            InitializeComponent();
+        }
+
+        private void lblPlanos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            frmMenu tela = new frmMenu();
+            tela.ShowDialog();
+
+        }
+    }
+}
